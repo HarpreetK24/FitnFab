@@ -1,0 +1,72 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>FitnFab</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>FitnFab</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="hastro.csproj" File="hastro.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <Folder Name="PublishProfiles" TargetFolderName="PublishProfiles">
+          <ProjectItem ReplaceParameters="false" TargetFileName="FolderProfile.pubxml">FolderProfile.pubxml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="FolderProfile1.pubxml">FolderProfile1.pubxml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name=".vs" TargetFolderName=".vs" />
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="603_-_Search_User-512.png">603_-_Search_User-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="add_user_group-512.png">add_user_group-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="barbell_dumbbell_strength_workout_weight_gym_weightlifting_equipment_bodybuilding_fitness_lifting_strong_sport_exercise_training_flat_design_icon-512.png">barbell_dumbbell_strength_workout_weight_gym_weightlifting_equipment_bodybuilding_fitness_lifting_strong_sport_exercise_training_flat_design_icon-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="exit.png">exit.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="member-add-on-300x300.png">member-add-on-300x300.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="user.png">user.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="user_remove_man_male_profile_account_person-512.png">user_remove_man_male_profile_account_person-512.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="user_remove_man_male_profile_account_person-5121.png">user_remove_man_male_profile_account_person-5121.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form10.cs">Form10.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form10.Designer.cs">Form10.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form10.resx">Form10.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form11.cs">Form11.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form11.Designer.cs">Form11.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form11.resx">Form11.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form2.cs">Form2.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form3.cs">Form3.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form3.Designer.cs">Form3.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form3.resx">Form3.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form4.cs">Form4.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form4.Designer.cs">Form4.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form4.resx">Form4.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form5.cs">Form5.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form5.Designer.cs">Form5.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form5.resx">Form5.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form6.cs">Form6.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form6.Designer.cs">Form6.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form6.resx">Form6.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form7.cs">Form7.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form7.Designer.cs">Form7.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form7.resx">Form7.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form8.cs">Form8.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form8.Designer.cs">Form8.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form8.resx">Form8.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form9.cs">Form9.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form9.Designer.cs">Form9.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form9.resx">Form9.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
